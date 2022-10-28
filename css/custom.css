@@ -8,13 +8,30 @@ body {
 #container {
     flex-direction: column;
     display: flex;
-    width: 80%;
+    width: 90%;
 
 }
-#textOverlay{
-    align-items: center;
-    display: flex;
-    justify-content: center;
+#welcome{
+
+    background: url(../images/background/h_img\ background.jpg);
+    height: 80vh;
+    width: 100%;
+    background-size: cover;
+
+color: white;
+
+font-size: 35px;
+
+align-items: center;
+
+justify-content: center;
+
+text-align: center;
+
+background-size: cover;
+}
+#amazing{
+    font-size: small;
 }
 
 
@@ -49,6 +66,23 @@ body {
     min-width: 100%;
     background: url(../images/c_image.jpg);
     text-align: center;
+    display: flex;
+    /* flex-direction: column; */
+    
+}
+textarea{
+    width: 65%;
+    background: transparent;
+    border-color: white;
+    
+
+}
+input{
+
+    background: transparent;
+    border-color: white;
+    width: 35;
+
 }
 
 #social_icons{
@@ -62,4 +96,17 @@ body {
 #form{
 
    background: transparent;
+}
+#services{
+    background: url(../images/background/s_image.jpg);
+    color: white;    
+  justify-items: center;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+text-align: center;
+justify-content: center;
+background-position: center;
+align-items: center;
+margin: 10%;
 }
