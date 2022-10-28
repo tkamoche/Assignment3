@@ -1,0 +1,65 @@
+body {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container {
+    flex-direction: column;
+    display: flex;
+    width: 80%;
+
+}
+#textOverlay{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+
+#About_us {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 3;
+
+}
+
+#content_box {
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2%;
+}
+
+#what_we_do {
+    margin-top: 1.7%;
+    text-align: center;
+
+
+
+}
+#contact_us{
+    margin-top: 2%;
+    min-height: 50vh;
+    min-width: 100%;
+    background: url(../images/c_image.jpg);
+    text-align: center;
+}
+
+#social_icons{
+
+    text-align: center;
+}
+#footer{
+    text-align: center;
+}
+
+#form{
+
+   background: transparent;
+}
