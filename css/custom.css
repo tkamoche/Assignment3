@@ -115,3 +115,32 @@ background-position: center;
 align-items: center;
 margin: 10%;
 }
+#parent1,#parent2,parent3,parent4,parent5,parent6,parent7,parent8{
+    position: relative;
+}
+#child1,#child2,child3,child4,child5,child6,child7,child8{
+    position: absolute;
+    opacity: 0;
+    top: 50%;
+
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+
+  -ms-transform: translate(-50%, -50%);
+
+  text-align: center;
+
+  /* color:white; */
+  font-weight: bold;
+
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+  font-size: 20px;
+  background-color: white;
+  background-color: rgb(255, 255, 255)
+}
+img1,img2,img3,img4,img5,img6,img7,img8{
+   opacity: 1; 
+   
+}
