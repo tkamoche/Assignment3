@@ -45,6 +45,11 @@ background-size: cover;
     margin-bottom: 3;
 
 }
+.designs{
+    width: 25%;
+    display: none;
+
+}
 
 #content_box {
     flex-direction: row;
@@ -74,7 +79,7 @@ textarea{
     width: 65%;
     background: transparent;
     border-color: white;
-    
+
 
 }
 input{
