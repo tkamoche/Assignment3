@@ -115,10 +115,10 @@ background-position: center;
 align-items: center;
 margin: 10%;
 }
-#parent1,#parent2,parent3,parent4,parent5,parent6,parent7,parent8{
+#parent1,#parent2,#parent3,#parent4,#parent5,#parent6,#parent7,#parent8{
     position: relative;
 }
-#child1,#child2,child3,child4,child5,child6,child7,child8{
+#child1,#child2,#child3,#child4,#child5,#child6,#child7,#child8{
     position: absolute;
     opacity: 0;
     top: 50%;
